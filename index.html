@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Facebook</title>
+    <style>
+        body {font-family: Arial, sans-serif;}
+        .login-container {max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px;}
+        .login-btn {background-color: #4267B2; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;}
+        .login-btn:hover {background-color: #365899;}
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Facebook</h2>
+        <form>
+            <div>
+                <label for="email">Email or Phone</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+            </div>
+            <button type="submit" class="login-btn">Log In</button>
+        </form>
+        <p><a href="#">Forgot password?</a></p>
+        <p><a href="#">Create new account</a></p>
+    </div>
+</body>
+</html>
